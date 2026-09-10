@@ -1,3 +1,9 @@
+libevent (2.1.12-stable-8deepin2) unstable; urgency=medium
+
+  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+
+ -- tunaichao <tunaichao@uniontech.com>  Thu, 10 Sep 2026 18:17:02 +0800
+
 libevent (2.1.12-stable-8deepin1) unstable; urgency=medium
 
   * symbols: Remove event_strlcpy_ symbol, now provided by glibc 2.38
